@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Password Generator</h1>
+            <p>A simple password generator with Javascript.</p>
+            <p class="description"></p>
+        </div>
+        <div class="container">
+            <div class="box">
+                <textarea id="textArea" readonly placeholder="Generate Password"></textarea>
+                <button id="myButton">Generate!</button>
+                <button id="resetBtn">Reset!</button>
+            </div>
+            <div class="checkbox-container">
+                <input type="radio" id="checkbox-16" name="option" value="checkbox-16">
+                <label for="checkbox-16">16 characters</label>
+                <input type="radio" id="checkbox-32" name="option" value="checkbox-32">
+                <label for="checkbox-32">32 characters</label>
+                <input type="radio" id="checkbox-64" name="option" value="checkbox-64">
+                <label for="checkbox-64">64 characters</label>
+                <input type="radio" id="checkbox-128" name="option" value="checkbox-128">
+                <label for="checkbox-128">128 characters</label>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
